@@ -1,4 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 
+.mainInicio{
+    border-top: #000 dotted 2px;
+    border-bottom: #000 dotted 2px;
+
+}
+
+.imgProductos:hover{
+    transition: 2s;
+    transform: scale(0.95);
+    overflow: hidden;
+
+}
+
+.listaUbi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contenedor{
+    background-color: rgb(211, 211, 211);
+}
 
 .formRegistro{
     width: 400px;
@@ -20,6 +50,7 @@
 
 .controles{
     width: 100%;
+    color: white;
     background-color: rgba(128, 128, 128, 0.438);
     padding: 10px;
     border-radius: 4px;

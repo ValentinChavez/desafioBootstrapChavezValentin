@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Inicio</title>
 </head>
-<body class="container-fluid">
+<body class="container-fluid contenedor">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html"><img class="w-50" src="./assets/img/logo.png" alt=""></a>
@@ -65,8 +66,8 @@
             </button>
         </div>
     </header>
-    <main class="row mt-2 mb-3">
-        <h1 class="text-center my-3">¿Que es la musica?</h1>
+    <main class="row mainInicio mt-2 mb-3">
+        <h1 data-aos="zoom-out" class="text-center my-3">¿Que es la musica?</h1>
         <p class="col-12 col-md-6">La musica es parte de nuestras vidas, todos alguna vez nos sentimos identificados de alguna manera con alguna cancion, con alguna banda, algun cantante o con algun musico. La musica puede transportarte a lugares en donde nunca estuviste, y transmitirte sentimientos que sin estas melodias no hubieras sentido; los artistas son aquellos que han desarrollado tanto su creatividad como la capacidad de comunicar lo sentido, ya que mediante el arte, este es capaz de evocar sentimientos a las personas que presencian su obra. La musica es el arte de transmitir un sentimiento mediante melodias, armonias y ritmos. </p>
         <p class="col-12 col-md-6 ">Todos podemos desarrollar la habilidad de dominar la musica, por eso, esta tienda virtual busca ayudarte a encontrar tu instrumento, ya sea de viento, de percusion, o de cuerda, para que puedas hablar el idioma de la musica, y puedas comunicarte con el arte. La musica no tiene fronteras, no tiene limites, cualquiera puede hacer lo que sea con la musica, desde emocionar a tu familia, hasta hacer aplaudir a todo un teatro, de todas formas, aca estamos para ayudarte a encontrar tu instrumento para crear arte y expresarlo. </p>
     </main>
@@ -76,6 +77,10 @@
 
 
 <!-- JavaScript Bundle with Popper -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
