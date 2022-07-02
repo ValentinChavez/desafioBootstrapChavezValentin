@@ -6,9 +6,13 @@
     text-decoration: none;
 }
 
+.contenedor{
+    background-color: rgb(211, 211, 211);
+}
+
 .mainInicio{
-    border-top: #000 dotted 2px;
-    border-bottom: #000 dotted 2px;
+    border-top: #000 solid 2px;
+    border-bottom: #000 solid 2px;
 
 }
 
@@ -24,10 +28,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
-}
-
-.contenedor{
-    background-color: rgb(211, 211, 211);
 }
 
 .formRegistro{
