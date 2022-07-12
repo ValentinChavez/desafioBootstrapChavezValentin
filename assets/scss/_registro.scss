@@ -1,13 +1,14 @@
 .formRegistro{
-    width: 400px;
-    background-color:black;
-    padding: 30px;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    margin-bottom: 80px;
+    width: map-get($register, ancho );
+    background-color: map-get($register , fondo );
+    padding: map-get($register , padding );
+    margin: map-get($register , margin );
+    margin-top: map-get($register , margin );
+    border-radius: map-get($register , border-radius );
+    color: map-get($register , color );
+    box-shadow: map-get($register , box-shadow );
+    margin-bottom: map-get($register , margin-bottom );
+
     h4{
         font-size: 22px;
         margin-bottom: 20px;

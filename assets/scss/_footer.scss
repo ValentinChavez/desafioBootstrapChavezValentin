@@ -1,6 +1,18 @@
+@mixin textColor ($color) {
+    @if($color == claro){
+        color: white;
+    }
+    @else if($color == oscuro){
+        color: black;
+    }
+    @else{
+        color: grey;
+    }
+}
+
 .footer{
     text-align: center;
     font-size: 16px;
     background-color: black;
-    color: white;
+    @include textColor(claro)
 }
