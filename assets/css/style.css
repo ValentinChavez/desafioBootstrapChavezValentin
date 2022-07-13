@@ -10,13 +10,21 @@
   background-color: rgb(211, 211, 211);
 }
 
-.titulo {
+.titulo, .tituloEspecial {
   font-size: 44px;
 }
 
 .mainInicio {
   border-top: #000 solid 2px;
   border-bottom: #000 solid 2px;
+}
+
+.titulo, .tituloEspecial {
+  font-size: 44px;
+}
+
+.tituloEspecial {
+  color: rgb(90, 81, 81);
 }
 
 .imgProductos:hover {
@@ -46,6 +54,7 @@
 .formRegistro h4 {
   font-size: 22px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .formRegistro p {
   height: 40px;
