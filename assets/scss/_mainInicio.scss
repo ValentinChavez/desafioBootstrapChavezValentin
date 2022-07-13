@@ -6,9 +6,10 @@
 
 .titulo{
     font-size: $fuenteTitulo;
+    color: rgb(90, 81, 81)
 }
 
 .tituloEspecial{
     @extend .titulo;
-    color: rgb(90, 81, 81);
+    color: black;
 }

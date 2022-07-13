@@ -21,10 +21,11 @@
 
 .titulo, .tituloEspecial {
   font-size: 44px;
+  color: rgb(90, 81, 81);
 }
 
 .tituloEspecial {
-  color: rgb(90, 81, 81);
+  color: black;
 }
 
 .imgProductos:hover {
