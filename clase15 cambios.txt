@@ -1,0 +1,11 @@
+Agregue un map en variables y lo extendi en la clase formRegistro en _registro.scss
+
+Agregue un mixin en _footer.scss
+
+Tambien agregue un extend en _mainInicio.scss
+
+Puse keywords y descripcion y titulos a todas las paginas
+
+todos los encabezados son iguales excepto el del home que le cambie el color con el extend 
+
+
